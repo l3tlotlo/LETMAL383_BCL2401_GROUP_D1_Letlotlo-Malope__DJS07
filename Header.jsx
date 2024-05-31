@@ -8,5 +8,5 @@ export default function Header () {
             <h2> Header Components</h2>
             <h4>React Course - Project 3</h4>
         </header>
-    )
+    ) 
 }
