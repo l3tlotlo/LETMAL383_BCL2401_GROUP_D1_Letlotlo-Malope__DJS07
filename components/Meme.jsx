@@ -8,6 +8,7 @@ export default function Meme () {
     })
     const [allMemes, setAllMemes] = React.useState([]);
 
+
     React.useEffect(() => {
         fetch("https://api.imgflip.com/get_memes")
             .then(res  => res.json())
@@ -31,8 +32,6 @@ export default function Meme () {
             [name]: value
         }))
     }
-
-
 
     return (
         <main>
@@ -67,4 +66,6 @@ export default function Meme () {
             </div>
         </main>
     )
+
+
 }
