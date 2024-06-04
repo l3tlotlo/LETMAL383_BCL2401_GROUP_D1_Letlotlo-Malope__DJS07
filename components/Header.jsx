@@ -6,7 +6,7 @@ export default function Header () {
         <header className="header">
             <img src="./Images/Troll-Face.jpg" />
             <h2> Header Components</h2>
-            <h4>React Course - Project 3</h4>
+            <h4>React Course - Project - 3</h4>
         </header>
     ) 
 }
